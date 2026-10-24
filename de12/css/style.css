@@ -22,12 +22,11 @@ logotohome img{
 
 /* ========== common ========== */
 html, body {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #393939;
-    margin-left: 15px;
-    margin-bottom: 40px;
-	background: #efefef;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #393939;
+    margin: 0; /* ← 左の余白をなくして端まで色を広げる */
+    background: rgb(241, 200, 207); /* ← ピンク色の背景にする */
 }
 h1{
     text-indent: 0em;
