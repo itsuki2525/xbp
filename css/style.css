@@ -52,3 +52,95 @@ span.blackback{
     color: #efefef;
 }
 
+a {
+  transition: opacity 0.3s ease;
+}
+a:hover {
+  opacity: 0.7; /* マウスを乗せると少し透ける */
+}
+
+html, body {
+  background-color: #fdfbf7;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #f3efe6,
+    #f3efe6 10px,
+    #fdfbf7 10px,
+    #fdfbf7 20px
+  );
+}
+
+/* セクション全体を中央揃えにする */
+.contents-section {
+  text-align: center;
+  max-width: 600px;  /* 幅が広がりすぎないように制限 */
+  margin: 0 auto;    /* 画面の中央に配置 */
+  padding: 40px 20px;
+}
+
+/* CONTENTSの見出しデザイン */
+.contents-section h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc; /* 下にうっすら線を引く場合 */
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+/* 各カードのスタイル */
+.card {
+  margin-bottom: 50px; /* カード同士の間隔 */
+}
+
+/* 画像のサイズと枠の設定 */
+.card img {
+  width: 100%;
+  max-width: 300px;   /* 画像の最大幅 */
+  height: auto;
+  display: block;
+  margin: 0 auto 15px; /* 画像を中央に配置して下に余白を作る */
+}
+
+/* 青色のリンク見出し */
+.card h3 a {
+  color: #1a0dab;      /* 画像のような青色 */
+  font-size: 20px;
+  text-decoration: underline; /* 下線をつける */
+}
+
+.card h3 a:hover {
+  color: #0000cc;      /* ホバー時に少し濃い青にする */
+}
+
+/* 説明テキスト */
+.card p {
+  color: #555555;      /* 少し落ち着いたグレー */
+  font-size: 14px;
+  line-height: 1.8;    /* 行間を広げて読みやすく */
+  margin-top: 10px;
+}
+/* メインタイトル全体のスタイル */
+.main-header {
+  text-align: center;      /* 文字を中央揃えにする */
+  padding: 50px 20px;      /* 上下にたっぷりと余白をとる */
+  background-color: #f7f7f7; /* 薄い背景色を敷く（不要ならこの行を消す） */
+  margin-bottom: 40px;     /*CONTENTSとの間に隙間を作る */
+  border-bottom: 1px solid #e0e0e0; /* 下部にうっすら線を引く */
+}
+
+/* メインの大きな文字 */
+.main-header h1 {
+  font-size: 36px;         /* 文字を大きくする */
+  font-weight: bold;
+  color: #222222;          /* 引き締まった黒色 */
+  margin-bottom: 8px;      /* タイトルとサブタイトルの間隔 */
+  letter-spacing: 2px;     /* 文字の間隔を少し広げておしゃれに */
+}
+
+/* サブタイトル（ポートフォリオ一覧など） */
+.main-header p {
+  font-size: 14px;
+  color: #666666;          /* 少し薄めのグレー */
+  letter-spacing: 1px;
+}
