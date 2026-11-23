@@ -144,3 +144,13 @@ html, body {
   color: #666666;          /* 少し薄めのグレー */
   letter-spacing: 1px;
 }
+
+.card li {
+  list-style: none;
+}
+
+.contents-section ol,
+.contents-section ul {
+  list-style: none;
+  padding-left: 0;
+}
